@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9422104E243C440100D73D69 /* DefaultInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422104D243C440100D73D69 /* DefaultInstance.m */; };
 		94D5F4BF243B445000522708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4BE243B445000522708 /* AppDelegate.m */; };
 		94D5F4C2243B445000522708 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4C1243B445000522708 /* SceneDelegate.m */; };
 		94D5F4C5243B445000522708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4C4243B445000522708 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		94D5F4D0243B445300522708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4CF243B445300522708 /* main.m */; };
 		94D5F4DA243B445300522708 /* pathValueDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4D9243B445300522708 /* pathValueDemoTests.m */; };
 		94D5F4E5243B445300522708 /* pathValueDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4E4243B445300522708 /* pathValueDemoUITests.m */; };
+		94D5F4F4243B44B600522708 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5F4F3243B44B600522708 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9422104C243C440100D73D69 /* DefaultInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultInstance.h; sourceTree = "<group>"; };
+		9422104D243C440100D73D69 /* DefaultInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultInstance.m; sourceTree = "<group>"; };
 		94D5F4BA243B445000522708 /* pathValueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pathValueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D5F4BD243B445000522708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94D5F4BE243B445000522708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		94D5F4E0243B445300522708 /* pathValueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pathValueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D5F4E4243B445300522708 /* pathValueDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pathValueDemoUITests.m; sourceTree = "<group>"; };
 		94D5F4E6243B445300522708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D5F4F2243B44B600522708 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		94D5F4F3243B44B600522708 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 				94D5F4BE243B445000522708 /* AppDelegate.m */,
 				94D5F4C0243B445000522708 /* SceneDelegate.h */,
 				94D5F4C1243B445000522708 /* SceneDelegate.m */,
+				94D5F4F2243B44B600522708 /* NextViewController.h */,
+				94D5F4F3243B44B600522708 /* NextViewController.m */,
 				94D5F4C3243B445000522708 /* ViewController.h */,
 				94D5F4C4243B445000522708 /* ViewController.m */,
 				94D5F4C6243B445000522708 /* Main.storyboard */,
@@ -115,6 +123,8 @@
 				94D5F4CB243B445300522708 /* LaunchScreen.storyboard */,
 				94D5F4CE243B445300522708 /* Info.plist */,
 				94D5F4CF243B445300522708 /* main.m */,
+				9422104C243C440100D73D69 /* DefaultInstance.h */,
+				9422104D243C440100D73D69 /* DefaultInstance.m */,
 			);
 			path = pathValueDemo;
 			sourceTree = "<group>";
@@ -267,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9422104E243C440100D73D69 /* DefaultInstance.m in Sources */,
+				94D5F4F4243B44B600522708 /* NextViewController.m in Sources */,
 				94D5F4C5243B445000522708 /* ViewController.m in Sources */,
 				94D5F4BF243B445000522708 /* AppDelegate.m in Sources */,
 				94D5F4D0243B445300522708 /* main.m in Sources */,
