@@ -146,12 +146,17 @@
     self.notifyTF.text = notify.userInfo[@"msg"];
 }
 
+// 当页面即将显示的时候
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    // 单例传值--界面2没有传过来的时候显示默认值（单例传值）
     if([DefaultInstance sharedInstance].str != nil) {
         self.singleInstanceTF.text = [DefaultInstance sharedInstance].str;
     }
-    self.nsUserDefaultsTF.text =  [[NSUserDefaults standardUserDefaults] objectForKey:@"NSUserDefaults-re"];
+    // NSUserDefaults传值--界面2没有传过来的时候显示默认值（NSUserDefaults传值）
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"NSUserDefaults-re"] != nil) {
+        self.nsUserDefaultsTF.text =  [[NSUserDefaults standardUserDefaults] objectForKey:@"NSUserDefaults-re"];
+    }
 }
 
 // 代理传值--实现协议方法--接收来自页面2的值
